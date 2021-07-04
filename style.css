@@ -16,7 +16,7 @@
 }
 
 .toggle-style{
-    background-color: var(--secondary-color); 
+   background-color: var(--secondary-color); 
 }
 
 .round-img{
@@ -45,7 +45,7 @@ p{
 .img-container{
     display:flex; 
     justify-content: center;
-    
+
 }
 .basic-img{
     margin-right: 1%; 
