@@ -52,6 +52,8 @@ p{
     text-align: center; 
     padding-top: 1%; 
     padding-bottom: 1%;
+    padding-left: 5%; 
+    padding-right: 5%;
 
 }
 
@@ -64,4 +66,5 @@ p{
 .paragraph-heading{
     color: var(--secondary-color);
     font-size: 300%; 
+    margin-bottom: 0%; 
 }
