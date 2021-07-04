@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 
+:root{
+    --primary-color: rgb(175, 31, 211);
+    --secondary-color: coral; 
+}
+
 .body-style{
     font-family: Cardo;
     background-color:#303030	;
@@ -14,8 +19,49 @@
 }
 
 a{
-    color:rgb(175, 31, 211);
+    color:var(--secondary-color);
 }
 a:hover{
-    color:coral;
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--primary-color); 
+    font-size: 150%;
+    text-align: center;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.basic-container{
+    display: grid; 
+}
+
+.img-container{
+    display:flex; 
+    justify-content: center;
+}
+.basic-img{
+    margin-right: 1%; 
+    margin-left: 1%; 
+}
+
+.title-text{
+    color: var(--primary-color);
+    font-size: 500%;
+    text-align: center; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+
+}
+
+.title-container{
+    position: relative; 
+    margin: 20%; 
+   
+}
+
+.paragraph-heading{
+    color: var(--secondary-color);
+    font-size: 300%; 
 }
