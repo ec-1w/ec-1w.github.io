@@ -45,6 +45,7 @@ p{
 .img-container{
     display:flex; 
     justify-content: center;
+    
 }
 .basic-img{
     margin-right: 1%; 
