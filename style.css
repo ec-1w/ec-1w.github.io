@@ -11,7 +11,12 @@
 }
 
 .navbar-style{
-    font-size: 200%
+    font-size: 200%; 
+    
+}
+
+.toggle-style{
+    background-color: var(--secondary-color); 
 }
 
 .round-img{
@@ -48,7 +53,7 @@ p{
 
 .title-text{
     color: var(--primary-color);
-    font-size: 500%;
+    font-size: 400%;
     text-align: center; 
     padding-top: 1%; 
     padding-bottom: 1%;
