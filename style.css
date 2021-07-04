@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+
+.body-style{
+    font-family: Cardo;
+    background-color:#303030	;
+}
+
+.navbar-style{
+    font-size: 200%
+}
+
+.round-img{
+    border-radius: 50%;
+}
+
+a{
+    color:rgb(175, 31, 211);
+}
+a:hover{
+    color:coral;
+}
