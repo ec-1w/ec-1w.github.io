@@ -56,10 +56,11 @@ nav {
 .img-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .basic-img {
-  margin-right: 1%;
-  margin-left: 1%;
+  margin: 1%;
+  width: 24em;
 }
 
 .title-text {
