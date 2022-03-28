@@ -1,76 +1,97 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Stick&display=swap");
 
-:root{
-    --primary-color: rgb(175, 31, 211);
-    --secondary-color: coral; 
+:root {
+  --primary-color: #d16eea;
+  --secondary-color: coral;
+  --third-color: #ec7990;
+  --background-color: #131313;
+  --text-color: #c1dec1;
 }
 
-.body-style{
-    font-family: Cardo;
-    background-color:#303030	;
+.body-style {
+  font-family: Cardo;
+  background-color: var(--background-color);
 }
 
-.navbar-style{
-    font-size: 200%; 
-    
+.navbar-style {
+  font-size: 200%;
 }
 
-.toggle-style{
-   background-color: var(--secondary-color); 
+.toggle-style {
+  background-color: var(--secondary-color);
 }
 
-.round-img{
-    border-radius: 50%;
+.round-img {
+  border-radius: 50%;
 }
 
-a{
-    color:var(--secondary-color);
+a {
+  color: var(--secondary-color);
 }
-a:hover{
-    color: var(--primary-color);
-}
-
-p{
-    color: var(--primary-color); 
-    font-size: 150%;
-    text-align: center;
-    margin-left: 5%; 
-    margin-right: 5%; 
+a:hover {
+  color: var(--primary-color);
+  transition: 0.4s;
+  text-decoration: none;
 }
 
-.basic-container{
-    display: grid; 
+p {
+  color: var(--text-color);
+  font-size: 150%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-.img-container{
-    display:flex; 
-    justify-content: center;
-
-}
-.basic-img{
-    margin-right: 1%; 
-    margin-left: 1%; 
+nav {
+  background-color: var(--background-color);
 }
 
-.title-text{
-    color: var(--primary-color);
-    font-size: 400%;
-    text-align: center; 
-    padding-top: 1%; 
-    padding-bottom: 1%;
-    padding-left: 5%; 
-    padding-right: 5%;
-
+.basic-container {
+  padding-top: 3%;
+  display: grid;
 }
 
-.title-container{
-    position: relative; 
-    margin: 20%; 
-   
+.img-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.basic-img {
+  margin: 1%;
+  width: 24em;
 }
 
-.paragraph-heading{
-    color: var(--secondary-color);
-    font-size: 300%; 
-    margin-bottom: 0%; 
+.title-text {
+  color: var(--primary-color);
+  font-size: 400%;
+  font-family: "Stick", sans-serif;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title-container {
+  position: relative;
+  margin: 20%;
+}
+
+.paragraph-heading {
+  color: var(--secondary-color);
+  font-family: "Stick", sans-serif;
+  font-size: 300%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+footer {
+  padding: 1em;
+}
+
+strong {
+  color: #77b777;
+  font-weight: bold;
 }
